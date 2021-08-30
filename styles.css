@@ -342,8 +342,13 @@ label {
     align-items: center;
   }
 
+  .hero__title {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
   .hero__text {
-    width: 60%;
+    width: 58%;
     height: auto;
     margin-right: 1rem;
   }

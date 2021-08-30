@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Front End Developer Interview Task</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
+    <!-- Phone number look up -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <!-- hero section -->
+      <section class="hero">
+        <div class="container__hero">
+          <article class="hero__text">
+            <h1 class="hero__title">
+              The Completely Powerful Booking System for Barbers
+            </h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              maecenas sed faucibus volutpat id eleifend quis elementum.
+            </p>
+            <button type="button" class="btn hero__btn">Get Started</button>
+          </article>
+
+          <article class="hero__image">
+            <img src="images/hero-img.svg" alt="hero" />
+          </article>
+        </div>
+      </section>
+      <!-- end of hero section -->
+
+      <!-- registration section -->
+      <section class="registration">
+        <div class="container__registration">
+          <article class="registration__form">
+            <form class="form">
+              <label for="fullname">Full Name</label>
+              <input
+                type="text"
+                id="fullname"
+                class="form__control"
+                name="fullname"
+                placeholder="Please enter your Full name"
+              />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form__control"
+                name="email"
+                placeholder="Please enter your Email"
+              />
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                class="form__control"
+                name="phone"
+                placeholder="(+49) 000 000 000"
+              />
+              <label for="businessname">Business Name</label>
+              <input
+                type="text"
+                id="businessname"
+                class="form__control"
+                name="businessname"
+                placeholder="Please enter your Business name here"
+              />
+              <label for="country">Country</label>
+              <select name="countries" class="form__control">
+                <option value="DE">🇩🇪&emsp;Germany</option>
+                <option value="NL">🇳🇱&emsp;Netherlands</option>
+                <option value="FR">🇫🇷&emsp;France</option>
+                <option value="ES">🇪🇸&emsp;Spain</option>
+              </select>
+              <div class="agree__checkbox">
+                <input
+                  type="checkbox"
+                  id="agree"
+                  class="form__control"
+                  value="agree"
+                />
+                <span class="agree__info"
+                  >I agree to all terms & conditions and policy features.</span
+                >
+              </div>
+
+              <div class="form__footer">
+                <button type="submit" class="btn registration__btn">
+                  Create Your Account
+                </button>
+                <p class="have__account">
+                  Already have a Nearcut account?
+                  <span><a href="#" class="login__here">Login Here</a></span>
+                </p>
+              </div>
+            </form>
+          </article>
+
+          <article class="registration__text">
+            <h2 class="registration__title">
+              Complete the registration form to get started
+            </h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              maecenas sed faucibus volutpat id eleifend quis elementum.
+            </p>
+
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              maecenas sed faucibus volutpat id eleifend quis elementum.
+            </p>
+
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              maecenas sed faucibus volutpat id eleifend quis elementum.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- end of registration section -->
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <article class="company__details">
+        <img
+          src="images/nearcut-logo-img.svg"
+          class="logo"
+          alt="nearcut logo"
+        />
+        <p class="company__description">So much more than a booking system</p>
+        <p class="contact__links">
+          <i class="fas fa-phone-alt"></i> 01 606 277 565
+        </p>
+        <p class="contact__links"><i class="far fa-envelope"></i> Email Us</p>
+      </article>
+
+      <article class="social__media">
+        <h3 class="social__title">Social Media</h3>
+        <ul class="social__links">
+          <li class="social__media_links">
+            <a href="#" class="social__media_link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="social__media_links">
+            <a href="#" class="social__media_link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="social__media_links">
+            <a href="#" class="social__media_link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="social__media_links">
+            <a href="#" class="social__media_link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </footer>
+    <!-- end of footer section -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
